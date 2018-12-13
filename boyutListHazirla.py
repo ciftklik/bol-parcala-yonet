@@ -1,5 +1,7 @@
 import os
 dosyaYolu='data.txt'
+
+#İnteger float kontrolü
 def isInt(x):
     if x%1 == 0:
         return False#tam bölünüyor
